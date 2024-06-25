@@ -16,7 +16,7 @@
     <!-- Divide one scan to n subscans, default is 1, can be 2, 4, 8, ... -->
     <arg name="divide" default="1"/>
     <!-- Replay mode will reinitilize when detecting forward/backward jumps -->
-    <arg name="replay" default="true"/>
+    <arg name="replay" default="false"/>
     <!-- Scale signal channel for visualization only -->
     <arg name="vis_signal_scale" default="4.0"/>
 
